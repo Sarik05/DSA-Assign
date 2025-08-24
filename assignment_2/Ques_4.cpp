@@ -10,9 +10,9 @@ void concatenateStrings() {
     cout << "Enter second string: ";
     cin >> s2;
 
-    string result = s1; // copy first string
+    string result = s1; 
     for (int i = 0; i < s2.length(); i++) {
-        result += s2[i]; // add each char of s2
+        result += s2[i]; 
     }
     cout << "Concatenated string: " << result << endl;
 }
@@ -59,7 +59,7 @@ void sortStrings() {
         cin >> arr[i];
     }
 
-    // Bubble Sort
+    
     for (int i = 0; i < n - 1; i++) {
         for (int j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
@@ -83,7 +83,7 @@ void upperToLower() {
     cout << "Enter an uppercase character: ";
     cin >> c;
     if (c >= 'A' && c <= 'Z') {
-        c = c + 32; // ASCII conversion
+        c = c + 32; 
     }
     cout << "Lowercase character: " << c << endl;
 }
